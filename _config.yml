@@ -24,7 +24,3 @@ plugins:
   - jekyll-include-cache
   - jekyll-github-metadata
   - jekyll-get-json
-
-jekyll_get_json:
-  - data: user
-    json: 'https://api.github.com/users/marc577'
