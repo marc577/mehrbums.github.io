@@ -1,0 +1,30 @@
+# Site settings
+title: #MEHRBUMS
+email: info@mehrbums.de
+author: mehrbums
+description: ""
+#baseurl: https://mehrbums.de
+google_analytics: ""
+show_excerpts: true
+excerpt_separator: <!--more-->
+
+# Build settings
+permalink: :title/
+sass:
+  sass_dir: assets/css
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-avatar
+  - jekyll-redirect-from
+  - jemoji
+  - jekyll-mentions
+  - jekyll-include-cache
+  - jekyll-github-metadata
+  - jekyll-get-json
+
+jekyll_get_json:
+  - data: user
+    json: 'https://api.github.com/users/marc577'
